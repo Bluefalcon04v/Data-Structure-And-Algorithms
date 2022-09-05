@@ -1,5 +1,5 @@
 # Data Structure & Algorithms
-____
+
 ### Task
 Soving some questions of Data Structure and Algorithm with JavaScript
 ----
