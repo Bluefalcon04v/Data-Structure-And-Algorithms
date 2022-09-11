@@ -1,7 +1,9 @@
 # Data Structure & Algorithms
 
 ### Task
-Soving some questions of Data Structure and Algorithm with JavaScript
+- Soving some questions of Data Structure and Algorithm with JavaScript 
+- Big-O complexity
+- Optimised solutions
 ----
 
 ### Summary
@@ -16,13 +18,15 @@ This repositorie contains.
  >- Prime Numbers
  >
  >- Power Of Two
- > 
- >-
+ >
+ >- 
+ >
+ >- 
 ***
 
 ### Run locally
 Steps to run in your Machine
-> Run this Command `git clone https://github.com/Bluefalcon04v/Questions.git`
+> Run this Command `git clone https://github.com/Bluefalcon04v/Data-Structure-And-Algorithms.git`
 > 
 > Run `npm install` 
 > 
