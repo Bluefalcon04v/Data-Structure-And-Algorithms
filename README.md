@@ -1,7 +1,7 @@
 # Data Structure & Algorithms
 
 ### Task
-- Soving some questions of Data Structure and Algorithm with JavaScript 
+- Soving questions of Data Structure and Algorithm 
 - Big-O complexity
 - Optimised solutions
 ----
