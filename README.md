@@ -9,12 +9,14 @@ This repositorie contains.
 1. **Algorithms theory**  
  >- About Object Big-O complexity
  >
- >- About Fibonacci Sequence
+ >- Fibonacci Sequence
  > 
- >- About Factorial
+ >- Factorial
  >
- >- About Prime Numbers
+ >- Prime Numbers
  >
+ >- Power Of Two
+ > 
  >-
 ***
 
