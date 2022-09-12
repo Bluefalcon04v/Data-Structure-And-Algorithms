@@ -19,7 +19,9 @@ This repositorie contains.
  >
  >- Power Of Two
  >
- >- 
+ >- Recursive Fibonacci Sequence
+ >
+ >- Recursive Factorial of a number
  >
  >- 
 ***
