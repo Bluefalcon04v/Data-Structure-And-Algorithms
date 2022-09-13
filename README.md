@@ -24,6 +24,11 @@ This repositorie contains.
  >- Recursive Factorial of a number
  >
  >- 
+ >
+ >- 
+ >
+ >- 
+ >
 ***
 
 ### Run locally
@@ -41,5 +46,6 @@ You are now in the dev environment and you can play around
 ---
 
 ### Tech Used
+- Algorithms
 - JavaScript
 ***
