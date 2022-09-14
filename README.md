@@ -23,12 +23,14 @@ This repositorie contains.
  >
  >- Recursive Factorial of a number
  >
- >- 
- >
- >- 
- >
- >- 
- >
+ >> **Search Algorithms**
+ >>
+ >>- Linear Search 
+ >>
+ >>- 
+ >>
+ >>- 
+ >>
 ***
 
 ### Run locally
