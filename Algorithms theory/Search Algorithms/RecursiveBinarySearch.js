@@ -23,3 +23,5 @@ function search(arr, target, leftIndex, rightIndex){
 console.log(recursiveBinarySearch([-3, 2, 5, 8, 10], 5))
 console.log(recursiveBinarySearch([-3, 2, 5, 8, 10], 8));
 console.log(recursiveBinarySearch([-3, 2, 5, 8, 10], 15));
+
+// Big-O time complexity is O(log n) because the input size is decreasing by half on every iteration
