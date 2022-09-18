@@ -27,10 +27,13 @@ This repositorie contains.
  >>
  >>- Linear Search 
  >>
- >>- 
+ >>- Binary Search
  >>
- >>- 
+ >>- Recursive Binary Search
+ >
+ >> **Sorting Algorithms**
  >>
+ >>- Bubble Sort
 ***
 
 ### Run locally
