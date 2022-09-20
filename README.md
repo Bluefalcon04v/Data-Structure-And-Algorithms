@@ -35,7 +35,9 @@ This repositorie contains.
  >>
  >>- Bubble Sort
  >>
- >>-
+ >>- Insertion Sort
+ >>
+ >>
 ***
 
 ### Run locally
