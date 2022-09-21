@@ -37,7 +37,7 @@ This repositorie contains.
  >>
  >>- Insertion Sort
  >>
- >>
+ >>- Quick Sort
 ***
 
 ### Run locally
