@@ -39,9 +39,9 @@ This repositorie contains.
  >>
  >>- Quick Sort
  >>
- >>- 
- >>
- >>- 
+ >>- Merge Sort
+ >
+ >> ** ** 
 ***
 
 ### Run locally
