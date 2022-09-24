@@ -41,7 +41,12 @@ This repositorie contains.
  >>
  >>- Merge Sort
  >
- >> ** ** 
+ >> **Miscellaneous Questions** 
+ >>
+ >>- Cartesian Product
+ >>
+ >>- 
+ >>
 ***
 
 ### Run locally
