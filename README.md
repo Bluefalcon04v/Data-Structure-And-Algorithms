@@ -47,6 +47,7 @@ This repositorie contains.
  >>
  >>- Climbing Stairs
  >>
+ >>- Tower Of Hanoi
 ***
 
 ### Run locally
