@@ -48,6 +48,11 @@ This repositorie contains.
  >>- Climbing Stairs
  >>
  >>- Tower Of Hanoi
+
+1. **Data Structure**
+ >- Arrays
+ >
+ >-
 ***
 
 ### Run locally
