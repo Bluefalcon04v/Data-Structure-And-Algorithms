@@ -49,7 +49,7 @@ This repositorie contains.
  >>
  >>- Tower Of Hanoi
 
-1. **Data Structure**
+2. **Data Structure**
  >- Arrays
  >
  >-
