@@ -49,10 +49,14 @@ This repositorie contains.
  >>
  >>- Tower Of Hanoi
 
-2. **Data Structure**
- >- Arrays
+ 2. **Data Structure**
+ >- **Arrays**
+ >>
+ >>- Arrays Methods
+ >>
+ >>- Map, Filter and Reduce
+ >- 
  >
- >-
 ***
 
 ### Run locally
@@ -72,4 +76,5 @@ You are now in the dev environment and you can play around
 ### Tech Used
 - Algorithms
 - JavaScript
+- Data Structures
 ***
