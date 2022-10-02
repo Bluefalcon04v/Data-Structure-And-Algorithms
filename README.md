@@ -55,7 +55,8 @@ This repositorie contains.
  >>- Arrays Methods
  >>
  >>- Map, Filter and Reduce
- >- 
+ >
+ >- **Objects** 
  >
 ***
 
