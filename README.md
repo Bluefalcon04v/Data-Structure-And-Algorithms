@@ -35,7 +35,7 @@ This repositorie contains.
  >>- Climbing Stairs
  >>- Tower Of Hanoi
 
- 2. **Data Structure**
+ 2. **Data Structure theory**
  > 1. ### Built in Data-Structure
  >>- Arrays
  >>>- Arrays Methods
