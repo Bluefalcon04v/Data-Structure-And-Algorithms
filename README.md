@@ -10,58 +10,44 @@
 This repositorie contains.
 1. **Algorithms theory**  
  >- About Object Big-O complexity
- >
  >- Fibonacci Sequence
- > 
  >- Factorial
- >
  >- Prime Numbers
- >
  >- Power Of Two
- >
  >- Recursive Fibonacci Sequence
- >
  >- Recursive Factorial of a number
  >
  >> **Search Algorithms**
- >>
  >>- Linear Search 
- >>
  >>- Binary Search
- >>
  >>- Recursive Binary Search
  >
  >> **Sorting Algorithms**
  >>
  >>- Bubble Sort
- >>
  >>- Insertion Sort
- >>
  >>- Quick Sort
- >>
  >>- Merge Sort
  >
  >> **Miscellaneous Questions** 
  >>
  >>- Cartesian Product
- >>
  >>- Climbing Stairs
- >>
  >>- Tower Of Hanoi
 
  2. **Data Structure**
- >- **Arrays**
+ > 1. ### Built in Data-Structure
+ >>- Arrays
+ >>>- Arrays Methods
+ >>>- Map, Filter and Reduce
  >>
- >>- Arrays Methods
- >>
- >>- Map, Filter and Reduce
+ >>- Objects 
+ >>- Sets 
+ >>- Maps 
  >
- >- **Objects** 
- >
- >- **Sets** 
- >
- >- **Maps** 
- >
+ > 2. ### Custom Data-Structure
+ >>- Stacks
+ >>- 
 ***
 
 ### Run locally
