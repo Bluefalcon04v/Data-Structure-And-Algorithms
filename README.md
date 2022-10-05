@@ -38,8 +38,8 @@ This repositorie contains.
  2. **Data Structure theory**
  > 1. ### Built in Data-Structure
  >>- Arrays
- >>>- Arrays Methods
- >>>- Map, Filter and Reduce
+ >>>1. Arrays Methods
+ >>>1. Map, Filter and Reduce
  >>
  >>- Objects 
  >>- Sets 
@@ -47,6 +47,9 @@ This repositorie contains.
  >
  > 2. ### Custom Data-Structure
  >>- Stacks
+ >>- Queue
+ >>>1. Implementing Queue Using Arrays
+ >>>1. Implementing Queue Using Method
  >>- 
 ***
 
