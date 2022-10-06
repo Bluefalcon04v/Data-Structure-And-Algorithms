@@ -50,6 +50,7 @@ This repositorie contains.
  >>- Queue
  >>>1. Implementing Queue Using Arrays
  >>>1. Implementing Queue Using Method
+ >>- Circular Queue
  >>- 
 ***
 
