@@ -51,7 +51,7 @@ This repositorie contains.
  >>>1. Implementing Queue Using Arrays
  >>>1. Implementing Queue Using Method
  >>- Circular Queue
- >>- 
+ >>- Linked List
 ***
 
 ### Run locally
