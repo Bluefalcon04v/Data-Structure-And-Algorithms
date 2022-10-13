@@ -66,6 +66,27 @@ class LinkedList{
         }
     }
 
+    removeFrom(index){
+        if(index < 0 || index >= this.size){
+            return (`invalid Index ${index}`)
+        }
+        let removedNode 
+        if(index === 0){
+            removedNode = this.head
+            this.head = this.head.next
+        }
+        else{
+            let previous = this.head
+            for(let i = 0; i < index - 1; i++){
+                previous = previous.next
+            }
+            removedNode = previous.next
+            previous.next = removedNode.next
+        }
+        this.size--
+        return removedNode.value
+    }
+
     print(){
         if(this.isEmpty()){
             console.log(`List is empty`);
@@ -103,6 +124,12 @@ list.insert(45, 6)
 
 list.print()
 console.log('list size is ', list.getSize());
+
+console.log(list.removeFrom(10));
+console.log(list.removeFrom(2));
+console.log(list.removeFrom(5));
+list.print()
+
 
 // Time Complexity of Prepend is = O(1)
 // Time Complexity of Append is = O(n)
