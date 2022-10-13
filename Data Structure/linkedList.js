@@ -111,6 +111,22 @@ class LinkedList{
         }
     }
 
+    search(value){
+        if(this.isEmpty()){
+            return (`list is Empty`)
+        }
+        let i = 0
+        let current = this.head
+        while(current){
+            if(current.value === value){
+                return (`${value} exists in the list at index ${i}`)
+            }
+            current = current.next
+            i++
+        }
+        return (`${value} doesn't belongs in list`)
+    }
+
     print(){
         if(this.isEmpty()){
             console.log(`List is empty`);
@@ -158,6 +174,10 @@ console.log(list.removeValue(100));
 console.log(list.removeValue(5));
 console.log(list.removeValue(15));
 list.print()
+
+console.log(list.search(5));
+console.log(list.search(10));
+console.log(list.search(60));
 
 // Time Complexity of Prepend is = O(1)
 // Time Complexity of Append is = O(n)
