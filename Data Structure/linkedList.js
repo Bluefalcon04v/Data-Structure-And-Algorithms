@@ -87,6 +87,30 @@ class LinkedList{
         return removedNode.value
     }
 
+    removeValue(value){
+        if(this.isEmpty()){
+            return (`list is Empty`)
+        }
+        if(this.head.value === value){
+            this.head = this.head.next
+            this.size--
+            return value
+        }
+        else{
+            let previous = this.head
+            while(previous.next && previous.next.value !== value){
+                previous = previous.next
+            }
+            if(previous.next){
+                const removedNode = previous.next
+                previous.next = removedNode.next
+                this.size--
+                return value
+            }
+            return (`${value} doesn't exists in list`)
+        }
+    }
+
     print(){
         if(this.isEmpty()){
             console.log(`List is empty`);
@@ -130,7 +154,13 @@ console.log(list.removeFrom(2));
 console.log(list.removeFrom(5));
 list.print()
 
+console.log(list.removeValue(100));
+console.log(list.removeValue(5));
+console.log(list.removeValue(15));
+list.print()
 
 // Time Complexity of Prepend is = O(1)
 // Time Complexity of Append is = O(n)
 // Time Complexity of print is = O(n)
+// Time Complexity of removing 1st element is = O(1)
+// Time Complexity of removing other element is = O(n)
