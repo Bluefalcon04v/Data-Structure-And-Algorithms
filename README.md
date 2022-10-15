@@ -52,6 +52,8 @@ This repositorie contains.
  >>>1. Implementing Queue Using Method
  >>- Circular Queue
  >>- Linked List
+ >>>1. Linked List with Head pointer
+ >>>1. Linked List with Head pointer and Tail pointer
 ***
 
 ### Run locally
