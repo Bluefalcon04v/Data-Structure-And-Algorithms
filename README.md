@@ -47,11 +47,11 @@ This repositorie contains.
  >
  > 2. ### Custom Data-Structure
  >>- Stacks
- >>- Queue
+ >>- **Queue**
  >>>1. Implementing Queue Using Arrays
  >>>1. Implementing Queue Using Method
  >>- Circular Queue
- >>- Linked List
+ >>- **Linked List**
  >>>1. Linked List with Head pointer
  >>>1. Linked List with Head pointer and Tail pointer
 ***
