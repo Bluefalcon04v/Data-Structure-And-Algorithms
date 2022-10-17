@@ -54,6 +54,9 @@ This repositorie contains.
  >>- **Linked List**
  >>>1. Linked List with Head pointer
  >>>1. Linked List with Head pointer and Tail pointer
+ >>>1. Linked List Stack
+ >>>1. Linked List Queue
+
 ***
 
 ### Run locally
