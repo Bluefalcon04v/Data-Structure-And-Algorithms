@@ -57,6 +57,7 @@ This repositorie contains.
  >>>1. Linked List Stack
  >>>1. Linked List Queue
  >>- Hash table/ Hash Map
+ >>- Binary Search Tree
 
 ***
 
