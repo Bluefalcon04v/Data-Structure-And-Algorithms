@@ -59,6 +59,33 @@ class BinarySearchTree{
             }
         }
     }
+
+
+    // preOrder, inOrder, postOrder is a part of depth first search 
+
+    preOrder(root){
+        if(root){
+            console.log(root.value);
+            this.preOrder(root.left)
+            this.preOrder(root.right)
+        }
+    }
+
+    inOrder(root){
+        if(root){
+            this.inOrder(root.left)
+            console.log(root.value);
+            this.inOrder(root.right)
+        }
+    }
+
+    postOrder(root){
+        if(root){
+            this.postOrder(root.left)
+            this.postOrder(root.right)
+            console.log(root.value);
+        }
+    }
 }
 
 
@@ -66,11 +93,16 @@ const bst = new BinarySearchTree
 console.log("Tree is Empty? " + bst.isEmpty());
 
 bst.insert(10)
-bst.insert(20)
 bst.insert(5)
+bst.insert(15)
 bst.insert(3)
-bst.insert(13)
+bst.insert(7)
 
 console.log(bst.search(bst.root, 10));
 console.log(bst.search(bst.root, 20));
 console.log(bst.search(bst.root, 9));
+
+
+bst.preOrder(bst.root)
+bst.inOrder(bst.root)
+bst.postOrder(bst.root)
