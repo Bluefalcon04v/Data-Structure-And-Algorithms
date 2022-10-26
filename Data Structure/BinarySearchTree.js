@@ -131,7 +131,7 @@ class BinarySearchTree{
         }
         if(value < root.value){
             root.left = this.deleteNode(root.left, value)
-        }else if(value > root.right){
+        }else if(value > root.value){
             root.right = this.deleteNode(root.right, value)
         }
         else{
@@ -160,7 +160,7 @@ bst.insert(10)
 bst.insert(5)
 bst.insert(15)
 bst.insert(3)
-// bst.insert(7)
+bst.insert(7)
 
 // console.log(bst.search(bst.root, 10));
 // console.log(bst.search(bst.root, 20));
@@ -177,5 +177,6 @@ bst.insert(3)
 // console.log(bst.min(bst.root));
 // console.log(bst.max(bst.root));
 
-bst.delete(3)
+bst.breadthFirstSearch()
+bst.delete(5)
 bst.breadthFirstSearch()
