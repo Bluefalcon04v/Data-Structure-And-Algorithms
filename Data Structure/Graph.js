@@ -31,6 +31,21 @@ class Graph{
     hasEdge(vertex1, vertex2){
         return(this.adjacencyList[vertex1].has(vertex2)&&this.adjacencyList[vertex2].has(vertex1))
     }
+
+    removeEdge(vertex1, vertex2){
+        this.adjacencyList[vertex1].delete(vertex2)
+        this.adjacencyList[vertex2].delete(vertex1)
+    }
+
+    removeVertex(vertex){
+        if(!this.adjacencyList[vertex]){
+            return
+        }
+        for(let adjacencyVertex of this.adjacencyList[vertex]){
+            this.removeEdge(vertex, adjacencyVertex)
+        }
+        delete this.adjacencyList[vertex]
+    }
 }
 
 const graph = new Graph()
@@ -45,3 +60,12 @@ graph.display()
 
 console.log(graph.hasEdge("A", "B"));
 console.log(graph.hasEdge("A", "C"));
+
+graph.removeEdge("A", "B")
+graph.display()
+
+graph.removeVertex("C")
+graph.display()
+
+// Time Complexity for addEdge, addVertex, removeEdge, display have O(1) constant Time Complexity
+// whereas Time Complexity for removeVertex depends on number of Vertex it's contain
