@@ -63,7 +63,7 @@ This repositorie contains.
 ***
 
 ### Run locally
-Steps to run in your Machine
+Steps to clone it in your Machine
 > Run this Command `git clone https://github.com/Bluefalcon04v/Data-Structure-And-Algorithms.git`
 > 
 > Run `npm install` 
