@@ -46,7 +46,9 @@ This repositorie contains.
  >>- Maps 
  >
  > 2. ### Custom Data-Structure
- >>- Stacks
+ >>- **Stacks**
+ >>>1. Implementating Stack 
+ >>>1. Implementating Factorial Using Stack DS
  >>- **Queue**
  >>>1. Implementing Queue Using Arrays
  >>>1. Implementing Queue Using Method
