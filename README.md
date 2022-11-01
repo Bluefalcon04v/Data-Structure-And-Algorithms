@@ -61,7 +61,12 @@ This repositorie contains.
  >>- Hash table/ Hash Map
  >>- Binary Search Tree
  >>- Graph
-
+ >
+ > 3. ### Problems
+ >>- Arrays
+ >>>1. Search Insert Position (Binary Search)
+ >>>1. 
+ >>>1. 
 ***
 
 ### Run locally
