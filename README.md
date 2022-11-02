@@ -62,7 +62,7 @@ This repositorie contains.
  >>- Binary Search Tree
  >>- Graph
  >
- > 3. ### Problems
+ 3. **Problems**
  >>- Arrays
  >>>1. Search Insert Position (Binary Search)
  >>>1. Find First and Last Position of Element in Sorted Array (Binary Search)
