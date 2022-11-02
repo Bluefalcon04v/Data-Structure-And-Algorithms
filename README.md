@@ -65,7 +65,7 @@ This repositorie contains.
  > 3. ### Problems
  >>- Arrays
  >>>1. Search Insert Position (Binary Search)
- >>>1. 
+ >>>1. Find First and Last Position of Element in Sorted Array (Binary Search)
  >>>1. 
 ***
 
