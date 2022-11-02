@@ -23,8 +23,7 @@
 
 
 
-
-var searchInsert = function(nums, target) {
+ var searchInsert = function(nums, target) {
     let leftIndex = 0
     let rightIndex = nums.length-1
     
@@ -41,11 +40,11 @@ var searchInsert = function(nums, target) {
             leftIndex = mid + 1
         }
     }
-    if(target < nums[0]){
+    // handling the case in which target isn't in the list 
+    if(nums[0] > target){         
         return 0
-    }
-    if(target > nums[rightIndex]){
+    }if(nums[nums.length -1] < target){
         return nums.length
     }
-    
+    return leftIndex              // on it the value which isn't in the array should existed
 };
