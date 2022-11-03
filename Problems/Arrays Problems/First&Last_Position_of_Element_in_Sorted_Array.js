@@ -21,7 +21,7 @@
 // Output: [-1,-1]
 
 
-var searchRange = function(nums, target) {
+ var searchRange = function(nums, target) {
     let leftIndex = 0
     let rightIndex = nums.length - 1
     
@@ -30,22 +30,21 @@ var searchRange = function(nums, target) {
         
         if(nums[mid] === target){
             let count = mid
-            if(nums[mid - 1] === target){
-                return [mid - 1, mid]
-            }else{
-                // for(let i = mid; nums[i] === target; i++){
-                //     return [i, mid]
-                while(nums[count] === target){
-                    count = count + 1   
-                }return [mid, count-1]
+            let n = mid
+            while(nums[count] === target){
+                count++
             }
+            while(nums[n] === target){
+                n--
+            }return [n+1, count-1]
         }
+        
         if(nums[mid] > target){
             rightIndex = mid - 1
-        }else{
+        }
+        else{
             leftIndex = mid + 1
         }
     } 
     return [-1, -1]
 };
-
