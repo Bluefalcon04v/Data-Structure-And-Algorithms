@@ -66,6 +66,7 @@ This repositorie contains.
  >>- Arrays
  >>>1. Search Insert Position (Binary Search)
  >>>1. Find First and Last Position of Element in Sorted Array (Binary Search)
+ >>>1. Search in Rotated Sorted Array (Binary Search)
  >>>1. 
 ***
 
