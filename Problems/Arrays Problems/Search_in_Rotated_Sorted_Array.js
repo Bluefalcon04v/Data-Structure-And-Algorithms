@@ -33,6 +33,12 @@ var search = function(nums, target) {
         if(nums[mid] === target){
             return mid
         }        
+        if(nums[rightIndex] === target){
+            return rightIndex
+        }
+        if(nums[leftIndex] === target){
+            return leftIndex
+        }
         if(nums[mid] >= nums[leftIndex]){
             if(target >= nums[leftIndex] && target < nums[mid]){
                 rightIndex = mid - 1
