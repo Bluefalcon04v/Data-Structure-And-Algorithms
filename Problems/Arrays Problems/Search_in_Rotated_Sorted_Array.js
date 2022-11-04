@@ -24,53 +24,28 @@
 
 
 
- var search = function(nums, target) {
+var search = function(nums, target) {
     let leftIndex = 0
     let rightIndex = nums.length - 1
-    let maxIndex = 0
     
     while(leftIndex <= rightIndex){
-        // let maxIndex = 0
         let mid = Math.floor((leftIndex + rightIndex)/2)
-        if(nums[maxIndex] < nums[mid]){
-            maxIndex = mid
-            leftIndex = mid + 1
-        }
-        else{
-            rightIndex = mid - 1
-        } 
-    }
-    
-    
-    leftIndex = 0
-    rightIndex = nums.length - 1
-    if(target === nums[maxIndex]){
-        return maxIndex
-    }
-    
-    if(target > nums[leftIndex]){
-        while(leftIndex <= maxIndex){
-            let mid = Math.floor((leftIndex + maxIndex)/2)  
-            
-            if(nums[mid] === target){
-                return mid
+        if(nums[mid] === target){
+            return mid
+        }        
+        if(nums[mid] >= nums[leftIndex]){
+            if(target >= nums[leftIndex] && target < nums[mid]){
+                rightIndex = mid - 1
             }
-            if(nums[mid] < target){
+            else{
                 leftIndex = mid + 1
-            }else{
-                maxIndex = mid - 1
             }
-        }
-    }else{
-        while(maxIndex <= rightIndex){
-            let mid = Math.floor((rightIndex + maxIndex)/2)  
             
-            if(nums[mid] === target){
-                return mid
-            }
-            if(nums[mid] < target){
-                maxIndex = mid + 1
-            }else{
+        }else{
+            if(target > nums[mid] && target <= nums[rightIndex]){
+                leftIndex = mid + 1 
+            }   
+            else{
                 rightIndex = mid - 1
             }
         }
