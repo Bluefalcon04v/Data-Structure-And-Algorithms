@@ -67,6 +67,8 @@ This repositorie contains.
  >>>1. Search Insert Position (Binary Search)
  >>>1. Find First and Last Position of Element in Sorted Array (Binary Search)
  >>>1. Search in Rotated Sorted Array (Binary Search)
+ >>>1. Remove Element (Two Pointers)
+ >>>1. 
  >>>1. 
  >>- String
  >>>1. Statement Reverse Vowels of a String (Two Pointers)
