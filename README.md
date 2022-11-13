@@ -1,6 +1,7 @@
 # Data Structure & Algorithms
 
 ### Task
+- DSA Explaination 
 - Soving questions of Data Structure and Algorithm 
 - Big-O complexity
 - Optimised solutions
