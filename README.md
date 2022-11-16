@@ -1,7 +1,6 @@
 # Data Structure & Algorithms
 
 ### Task
-- DSA Explaination 
 - Soving questions of Data Structure and Algorithm 
 - Big-O complexity
 - Optimised solutions
@@ -72,12 +71,13 @@ This repositorie contains.
  >>>1. 
  >>>1. 
  >>>1. 
- >>>1. 
- >>>1. 
  >>- String
  >>>1. Statement Reverse Vowels of a String (Two Pointers)
  >>>1. 
- >>>1. 
+ >>- Binary Search
+ >>>1. Guess Number Higher or Lower
+ >>>1.  
+
 ***
 
 ### Run locally
