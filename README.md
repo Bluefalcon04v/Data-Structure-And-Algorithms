@@ -77,6 +77,8 @@ This repositorie contains.
  >>- Binary Search
  >>>1. Guess Number Higher or Lower
  >>>1.  
+ >>- Maths
+ >>>1. Rectangle Area
 
 ***
 
