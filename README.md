@@ -74,7 +74,6 @@ This repositorie contains.
  >>- String
  >>>1. Statement Reverse Vowels of a String (Two Pointers)
  >>>1. 
- >>>1. 
  >>- Binary Search
  >>>1. Guess Number Higher or Lower
  >>>1.  
