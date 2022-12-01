@@ -74,10 +74,10 @@ This repositorie contains.
  >>>1. 
  >>- Binary Search
  >>>1. Guess Number Higher or Lower
- >>>1. 
+ >>>1.  
  >>- Maths
  >>>1. Rectangle Area
- >>>1. 
+
 ***
 
 ### Run locally
