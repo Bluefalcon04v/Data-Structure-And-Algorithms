@@ -1,9 +1,7 @@
 # Data Structure & Algorithms
-## data
+
 ### Task
-#### task2 
-##### h5
-###### h6
+
 - Soving questions of Data Structure and Algorithm 
 - Big-O complexity
 - Optimised solutions
