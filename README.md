@@ -1,7 +1,6 @@
 # Data Structure & Algorithms
 
 ### Task
-
 - Soving questions of Data Structure and Algorithm 
 - Big-O complexity
 - Optimised solutions
@@ -36,7 +35,7 @@ This repositorie contains.
  >>- Climbing Stairs
  >>- Tower Of Hanoi
 
- 2. **Data Structure theory**
+2. **Data Structure theory**
  > 1. ### Built in Data-Structure
  >>- Arrays
  >>>1. Arrays Methods
@@ -69,17 +68,17 @@ This repositorie contains.
  >>>1. Find First and Last Position of Element in Sorted Array (Binary Search)
  >>>1. Search in Rotated Sorted Array (Binary Search)
  >>>1. Remove Element (Two Pointers)
+ >>>1. Two Sum (Hash Table)
  >>>1. 
  >>- String
  >>>1. Statement Reverse Vowels of a String (Two Pointers)
  >>>1. 
  >>- Binary Search
  >>>1. Guess Number Higher or Lower
- >>>1.   
+ >>>1.  
  >>- Maths
  >>>1. Rectangle Area
-
-
+ >>>1. 
 
 ***
 
