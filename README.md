@@ -69,16 +69,12 @@ This repositorie contains.
  >>>1. Search in Rotated Sorted Array (Binary Search)
  >>>1. Remove Element (Two Pointers)
  >>>1. Two Sum (Hash Table)
- >>>1. 
  >>- String
  >>>1. Statement Reverse Vowels of a String (Two Pointers)
- >>>1. 
  >>- Binary Search
  >>>1. Guess Number Higher or Lower
- >>>1.  
  >>- Maths
  >>>1. Rectangle Area
- >>>1. 
 
 ***
 
